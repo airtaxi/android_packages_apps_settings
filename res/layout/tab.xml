@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost">
+    <LinearLayout android:id="@+id/LinearLayout01"
+        android:orientation="vertical" android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+        <TabWidget android:id="@android:id/tabs"
+            android:layout_height="wrap_content" android:layout_width="fill_parent"></TabWidget>
+        <FrameLayout android:id="@android:id/tabcontent"
+            android:layout_height="fill_parent" android:layout_width="fill_parent"></FrameLayout>
+    </LinearLayout>
+
+</TabHost>
+
+    <!--&lt;!&ndash; referenced from PAC &ndash;&gt;-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/viewPager"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_weight="1.0"-->
+        <!--android:flipInterval="30"-->
+        <!--android:persistentDrawingCache="animation" >-->
+
+        <!--<android.support.v4.view.PagerTabStrip-->
+            <!--android:id="@+id/pager_title_strip"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:textAppearance="@style/TextAppearance.PagerTabs"-->
+            <!--android:paddingTop="4dp"-->
+            <!--android:paddingBottom="4dp" />-->
+
+    <!--</android.support.v4.view.ViewPager>-->
+
+<!--</LinearLayout>-->
